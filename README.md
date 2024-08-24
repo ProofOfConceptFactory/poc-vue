@@ -15,13 +15,13 @@ Installation
 Clone this repository:
 
 ```console
-https://github.com/abdounikarim/poc-vue-hello
+https://github.com/abdounikarim/poc-vue
 ```
 
 Go on the project root folder:
 
 ```console
-cd poc-vue-hello/
+cd poc-vue/
 ```
 
 Install JavaScript dependencies:
