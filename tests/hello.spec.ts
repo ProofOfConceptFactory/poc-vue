@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('hello from react', async ({ page }) => {
+test('hello from vue', async ({ page }) => {
   await page.goto('/');
 
   // Expect a h1 "to contain" a substring.
