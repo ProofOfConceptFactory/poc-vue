@@ -1,5 +1,6 @@
 services:
   node:
+    # image: cypress/base:latest
     build:
       context: ../
       dockerfile: docker/front/Dockerfile
