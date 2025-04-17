@@ -1,7 +1,7 @@
 Hello from Vue!👋
 ========================
 
-[![GitHub Pages](https://github.com/abdounikarim/poc-vue/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/abdounikarim/poc-vue/actions/workflows/github-pages.yaml)
+[![GitHub Pages](https://github.com/ProofOfConceptFactory/poc-vue/actions/workflows/github-pages.yaml/badge.svg)](https://github.com/ProofOfConceptFactory/poc-vue/actions/workflows/github-pages.yaml)
 
 The "Hello from Vue!👋" application is just a starter to show a minimalist Vue app.
 
@@ -17,7 +17,7 @@ Installation
 Clone this repository:
 
 ```console
-https://github.com/abdounikarim/poc-vue
+https://github.com/ProofOfConceptFactory/poc-vue
 ```
 
 Go on the project root folder:
