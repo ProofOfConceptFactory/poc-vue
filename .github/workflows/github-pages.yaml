@@ -3,8 +3,8 @@ name: GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
+  pull_request:
   push:
-    branches: ['main']
   # Runs on pull requests based on the default branch
   pull_request:
   # Allows you to run this workflow manually from the Actions tab
@@ -34,7 +34,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: latest
           cache: 'pnpm'
       - name: Install mkcert latest version and generate certificates
         run: |
@@ -55,7 +55,7 @@ jobs:
 
   deploy:
     # Only run deployment on main branch pushes or manual workflow dispatch
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    if: github.ref_name == 'main'
     needs: tests
     environment:
       name: github-pages
