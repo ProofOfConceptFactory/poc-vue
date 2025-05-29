@@ -3,7 +3,6 @@ name: GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
-  pull_request:
   push:
   # Runs on pull requests based on the default branch
   pull_request:
