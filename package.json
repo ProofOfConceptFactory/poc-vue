@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/node": "^20.14.12",
     "@vitejs/plugin-vue": "^5.0.5",
-    "cypress": "^13.16.0",
+    "cypress": "^14.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
     "vue-router": "^4.5.0",
