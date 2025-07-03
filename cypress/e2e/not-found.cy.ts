@@ -17,7 +17,8 @@ describe('not found', () => {
         cy.contains('h1', 'Hello from Vue!👋')
         cy.get('h1').should('not.contain.text', 'Not Found')
 
-        cy.get('a').first().should('contain.text', 'Home')
+        cy.get('a').first().should('contain.text', 'poc-vue')
+        cy.get('a').eq(1).should('contain.text', 'Home')
         cy.get('a').last().should('contain.text', 'Another page')
     })
 })
