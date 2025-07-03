@@ -1,6 +1,8 @@
 <template>
   <Header />
-  <h1>Another page</h1>
+  <h1 class="text-3xl font-bold">
+    Another page
+  </h1>
 </template>
 <script setup lang="ts">
 import Header from "../components/Header.vue";

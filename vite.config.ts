@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import fs from 'fs'
 import type { ServerOptions } from 'vite'
@@ -20,7 +21,10 @@ export default defineConfig(({ mode }) => {
     }
 
     return {
-        plugins: [vue()],
+        plugins: [
+            tailwindcss(),
+            vue()
+        ],
         server: serverConfig
     }
 })
