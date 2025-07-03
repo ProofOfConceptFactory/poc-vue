@@ -10,7 +10,7 @@
         <fwb-navbar-link :is-active="$route.name === 'home'" link="/">
           Home
         </fwb-navbar-link>
-        <fwb-navbar-link :is-active="$route.name === 'another-page'" link="/another-page">
+        <fwb-navbar-link :is-active="$route.name === 'another-page'" link="another-page">
           Another page
         </fwb-navbar-link>
       </fwb-navbar-collapse>
