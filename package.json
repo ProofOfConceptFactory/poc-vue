@@ -16,7 +16,7 @@
     "vue": "^3.4.31"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@vitejs/plugin-vue": "^6.0.0",
     "cypress": "^15.0.0",
     "typescript": "^5.2.2",
